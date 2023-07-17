@@ -1,0 +1,1 @@
+<?php require-once("index.html") ?

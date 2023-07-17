@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100&family=Raleway:wght@200&family=Righteous&family=Roboto+Slab:wght@300&display=swap');
+
+
+:root {
+    --color-1:#E0FFFF;
+    --color-2:#87CEFA;
+    --color-3:#B4D2D9;
+    --color-4:#AFEEEE;
+    --color-5:#F2E9E4;
+    --color-6:white;
+    --color-7:rgb(224, 241, 245);
+    --color-8:#9dc8d1;
+    --color-9:#081b29;
+    /* opciones de colores */
+    --transition: 0.3s;
+  }
+
+  html{
+    background-color: #081b29;
+    scroll-behavior: smooth;
+  }
+
+  html::-webkit-scrollbar{
+    width: 10px;
+    /* background-color:#b8daf1; */
+  }
+
+  html::-webkit-scrollbar-thumb{
+    background-color: #87CEFA;
+    border-radius: 50px;
+  }
+  
+  html::-webkit-scrollbar-thumb:hover{
+    background-color: #ffffff;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    overflow-x:hidden;
+    /* background: #081b29; */
+}
+
+
+
+.top{
+    background-color: #081b29;
+    width: 100vw;
+    height: 60rem;
+    /* background-color:var(--color-6);
+    color: var(--color-6); */
+}
+
+ .brand .letter{
+  color: #00BFFF;
+}
+
+
+
+
+.navbar .brand h1{
+  position: sticky;
+  margin-left:90px;
+  font-size: 40px;
+}
+
+.brand span{
+    color: var(--color-4);
+}
+
+.navbar{
+    position: sticky;
+    background-color:transparent ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3.5rem;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 20px;
+    /* box-shadow: 0 3px 5px rgba(101, 151, 180, 0.404); */
+    
+}
+
+.menu .brand h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu{
+   font-size: 22px;
+    margin-right: 8rem;
+    margin-top: 10px;
+    display: flex;
+    width: 55%;
+    height: 100%;
+    justify-content: space-between;
+    list-style: none; 
+}
+
+  .menu li{
+  /* border:2px solid var(--color-4) ;
+  padding: 10px; */
+} 
+
+.menu a {
+  border-radius: 20%;
+  border:2px solid var(--color-4) ;
+  padding: 15px 40px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3 ease;
+}
+
+.menu a :nth-child(5){
+  background-color: #00BFFF;
+}
+
+
+.menu .active{
+    color: var(--color-2);
+}
+
+  .menu a:hover{
+    color: #191c32;
+    background-color: var(--color-2);
+    transition: .5s; 
+}  
+
+
+
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  left:80% ;
+}
+
+.links img:hover{
+  transform: translateY(-5px);
+  background-color: #FAF8F1;
+}
+
+.inicio{
+    font-family: 'Roboto Slab', serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-4);
+    margin-top: 250px;
+    margin-right: 40%;
+    font-size: 50px;
+}
+
+.hero {background-color: #081b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin:0;
+  }
+
+  /* .hero img {
+    margin-top: 50px;
+    width: 500px;
+    height: 650px;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .hero-img:hover{
+    transform: translateY(-10px);
+  } */
+  
+  .hero{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  height: 75vh;
+  padding:5% 5%;
+  }
+
+  .bio{
+    /* background-color: #00BFFF; */
+    max-width: 1000px;
+  }
+
+  
+   .bio h2 {
+    font-family: 'Raleway', sans-serif;
+     font-size: 120px; 
+    color: var(--color-5);
+  }
+
+  .saludo{
+    font-size: 30px;
+  }
+
+  .nombre-hero{
+    color:var(--color-2);
+  }
+  
+  .bio p{
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    color: var(--color-1);
+    padding: 1.5rem 0;
+  }
+
+  .sobre-mi {
+    padding: 1rem 6rem;
+  }
+  
+  .sobre-mi h2 {
+    font-size: 2.8em;
+    margin-bottom: 50px;
+    color: var(--color-5);
+    text-align: center;
+  }
+  
+  .sobre-mi p {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    color: var(--color-5);
+    line-height: var(--color-5);
+    padding: 0.5rem;
+  }
+
+    .skills{
+      margin-top: 70px;
+    }
+
+  .header-skills{
+    display: flex;
+    justify-content: center;
+    font-size: 2.8em;
+    color: var(--color-5);
+  }
+
+  .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+  }
+
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin: 60px;
+  }
+
+  .icon:hover{
+    background-color:#4682B4;
+  }
+
+  .tarjeta{
+    background-color: var(--color-5);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--color-8);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .izquierda{
+    margin-right: 30px;
+  }
+
+  .derecha{
+    margin-left: 40px;
+  }
+
+  .nuevo{
+    margin-left: 65px;
+  }
+
+  /* menu de iconos */
+  .sociales {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
+
+  .linkedin{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 62%;
+  }
+  
+  .socicon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .desplazarseArriba {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  .flecha-arriba {
+    width: 3rem;
+    height: 3rem;
+  } 
+
+  .socicon:hover{
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .proyectos{
+    color: var(--color-5);
+    margin-top: 100px;
+  }
+
+
+  .portfolio-headings{
+    width: 100vw;
+    padding: 5em;
+  }
+
+  .portfolio-headings h2{
+    font-size: 2.8em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .portfolio .container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    width: 300px;
+    height: 340px;
+    background-color:cadetblue;
+    margin: 7em;
+  }
+
+  .card-img{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/Koalaland.png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .card-img-2{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/tienda\ virtual.png);
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .card-img-3{
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/Oso-panda-gigante-Zoo-Madrid-2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .card_title{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-proyects-links{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card-proyects-links a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .card-proyects-links i{
+    font-size:1.5em ;
+  }
+
+  .card .project-details{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    padding: 10px 20px;
+    border: solid;
+    background-color: #00ffff;
+    border-radius: 20px;
+    box-shadow:-1px 2px 12px -3px  rgba(128,237,245,0.74);
+    font-family: 'Righteous', cursive;
+    align-self: center;
+    width: 80%;
+    text-transform:uppercase ;
+  }
+
+  .card .project-details:hover{
+    background-color: white;
+  }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
