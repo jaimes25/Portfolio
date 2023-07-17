@@ -334,7 +334,7 @@ body{
 
   .portfolio-headings{
     width: 100vw;
-    padding: 5em;
+    padding-top: 10em;
   }
 
   .portfolio-headings h2{
@@ -354,8 +354,9 @@ body{
   .card{
     width: 300px;
     height: 340px;
-    background-color:cadetblue;
+    background-color:var(--color-8);
     margin: 7em;
+    border-radius: 10px;
   }
 
   .card-img{
@@ -422,8 +423,72 @@ body{
     background-color: white;
   }
 
+  .container-contact{
+    padding: 3em;
+    margin: 0 auto;
+  }
 
 
+   .container-contact img{
+    width: 700px;
+    height: 650px;
+    display: flex;
+    float: right;
+    margin-top: -200px;
+    margin-right: 10%;
+  } 
+
+   .contact-headings h2{
+    font-size: 4em;
+    color: var(--color-5);
+    margin-left: 325px;
+   }
+   .contact-form h4{
+    margin-left: 280px;
+    color: var(--color-5);
+    font-size: 30px;
+    padding-bottom: 20px;
+   }
+
+   form{
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+    margin-left: 280px;
+   }
+
+   .form input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+   }
+
+   .form textarea{
+    height: 150px;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border:1px solid white ; 
+   }
+
+    .btn-submit{
+      padding: 10px 20px;
+      margin: 1em;
+      border: none;
+      text-transform: uppercase;
+      background-color: aqua;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: 'Righteous', cursive;
+   }
+
+   .btn-submit:hover{
+    background-color: var(--color-1);
+   }
 
 
 
