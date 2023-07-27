@@ -182,6 +182,14 @@ section[id]{
     margin:0;
   }
 
+  .img-hero{
+    width: 700px;
+    height: 650px;
+    position: absolute;
+    right: 5%;
+    top: 150px;
+  }
+
   /* .hero img {
     margin-top: 50px;
     width: 500px;
