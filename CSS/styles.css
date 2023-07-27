@@ -47,6 +47,16 @@ body{
     /* background: #081b29; */
 }
 
+/* posible opcion de barra fija  */
+.header{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+section[id]{
+  scroll-margin-top:100px ;
+}
 
 
 .top{
@@ -238,7 +248,7 @@ body{
   }
 
     .skills{
-      margin-top: 70px;
+      margin-top: 150px;
     }
 
   .header-skills{
@@ -353,9 +363,9 @@ body{
 
   .card{
     width: 300px;
-    height: 340px;
-    background-color:#AED6F1  ;
-    margin: 7em;
+    height: 310px;
+    background-color:var(--color-2)  ;
+    margin: 5em;
     border-radius: 10px;
   }
 
@@ -384,12 +394,12 @@ body{
   }
 
   .card_title{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .card-proyects-links{
@@ -490,6 +500,46 @@ body{
 
    .btn-submit:hover{
     background-color: var(--color-1);
+   }
+
+   .footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color:var(--color-1) ;
+   }
+
+   .footer-content h2{ 
+    font-size: 3em;
+   }
+
+   .footer-content h5,
+   .social-network{ 
+    font-size: 1.5em;
+   }
+   .footer-content h5{
+    text-align: center;
+   }
+
+   .social-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+   }
+
+   .social-network a{
+    font-size: 1.5em;
+      color: var(--color-9);
+
+   }
+
+   .social-network a:hover{
+    color: aqua;
+
    }
 
 
