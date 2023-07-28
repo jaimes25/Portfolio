@@ -2,6 +2,9 @@
 
 
 :root {
+  --clr-primary: #f7cfc8;
+  --clr-secondary: #4d84c8;
+  --clr-wht: #fffcf6;
     --color-1:#E0FFFF;
     --color-2:#87CEFA;
     --color-3:#B4D2D9;
@@ -74,6 +77,7 @@ section[id]{
 
 
 
+
 .navbar .brand h1{
   position: sticky;
   margin-left:90px;
@@ -116,10 +120,6 @@ section[id]{
     list-style: none; 
 }
 
-  .menu li{
-  /* border:2px solid var(--color-4) ;
-  padding: 10px; */
-} 
 
 .menu a {
   border-radius: 20%;
@@ -286,23 +286,35 @@ section[id]{
   }
 
   .tarjeta{
+    border-radius: 81px;
     background-color: var(--color-5);
-    border-radius: 11px;
     box-shadow: 0 3px 10px var(--color-8);
     padding: 20px;
     margin: 10px;
   }
 
   .izquierda{
+    border-radius: 80px;
+    box-shadow: 8px 8px 0px 0px rgba(246,138,88,1);
     margin-right: 30px;
+  }
+  .izquierda:hover{
+    background-color:#F7BE81;
   }
 
   .derecha{
+    border-radius: 81px;
+    box-shadow: 8px 8px 0px 0px rgba(16,119,225,1);
     margin-left: 40px;
   }
 
   .nuevo{
+    box-shadow:8px 8px 0px 0px rgba(60,188,241,1);
     margin-left: 65px;
+  }
+
+  .nuevo:hover{
+    background-color: #CEF6F5;
   }
 
   /* menu de iconos */
@@ -372,9 +384,13 @@ section[id]{
   .card{
     width: 300px;
     height: 310px;
-    background-color:var(--color-2)  ;
+    background-color:var(--color-4)  ;
     margin: 5em;
     border-radius: 10px;
+    box-shadow: -10px 10px 0px 0px rgb(141, 241, 233),
+    -20px 20px 0px 0px rgba(160, 239, 241, 0.7),
+    -30px 30px 0px 0px rgba(154, 255, 238, 0.4),
+    -40px 40px 0px 0px rgba(99, 233, 233, 0.1);
   }
 
   .card-img{
@@ -401,19 +417,27 @@ section[id]{
     border-radius: 10px;
   }
 
+
   .card_title{
+  width: 100%;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 30px;
   }
 
   .card-proyects-links{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 10px;
   }
+
+  .card-proyects-links a:hover{
+    color: var(--color-9);
+  }
+
 
   .card-proyects-links a{
     color: white;
@@ -421,7 +445,7 @@ section[id]{
   }
 
   .card-proyects-links i{
-    font-size:1.5em ;
+    font-size:2em ;
   }
 
   .card .project-details{
