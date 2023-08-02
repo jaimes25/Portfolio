@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,34 +11,41 @@
     <script src="https://kit.fontawesome.com/5d8aaeedb4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  
     <div class="top">
         <header class="header">
             <nav class="navbar topheader">
                 <div class="brand">
                     <h1><span class="letter letras">M</span><span>J</span></h1>
                 </div>
-                <ul class="menu">
+                <ul class="menu" id="menu">
                     <li><a class="active" href="#">Home</a></li>
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <!-- <ul class="links">
-                  <li><a href="https://github.com/jaimes25" target="_blank"><img src="./img/github2.png" alt="github" style="width: 75px; border-radius:100%;"></a></li>
-                  <li><a href="https://www.linkedin.com/in/martin-felipe-jaimes-garcia-95b894265/" target="_blank"><img src="./img/linkedin.png" alt="linkedin" style="width: 65px; margin-top: 3px; margin-left: 50px; border-radius: 10px;"></a></li>
-                </ul> -->
+                <div class="toggle-menu">
+                  <i class="fas fa-bars" id="toggle_open"></i>
+                  <i class="fas fa-close" id="toggle_close"></i>
+                </div>
             </nav>
         </header>
-        <section class="hero" id="about">
-          <img  class="img-hero" src="./img/3001764.png" alt="persona">
-            <div class="bio">
-              <h2 class="titulo"><span class="saludo"> Hello </span><br> I´m <span class="nombre-hero">Martín</span> Jaimes</h2>
-              <p class="bio-texto">
-                I´m a frontend developer, visual designer <br> and this is my portfolio
-              </p>
-            </div>
-      </section>
+      <main class="hero" id="about">
+        <div class="info-content">
+          <span class="bio-texto-subtitle">Frontend Developer</span>
+          <h1 class="titulo"><span class="saludo"> Hello </span><br> <span>I´m <span class="nombre-hero">Martín</span>Jaimes</h1> </span>
+          <div class="social-network  info-content-sotial">
+            <a href="https://www.linkedin.com/in/martin-felipe-jaimes-garcia-95b894265/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/jaimes25" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/m.jaimes.g/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p class="bio-texto">
+            I´m a frontend developer, visual designer <br> and this is my portfolio
+          </p>
+        </div>
+        <img  class="img-hero" src="./img/3001764.png" alt="person">
+      </main>
     </div>
 
     <section class="sobre-mi" id="about-me">
@@ -170,6 +178,6 @@
         <a href="https://www.instagram.com/m.jaimes.g/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       </div>
     </footer>
-
+    <script src="./js/portfolio.js"></script>
 </body>
 </html>
