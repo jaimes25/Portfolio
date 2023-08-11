@@ -1015,6 +1015,7 @@ section[id]{
   color: var(--color-5);
   padding-bottom: 40px;
   width: 50vw;
+  margin-left: 200px;
   }
 
   .contact-section  .contact-form{
@@ -1025,12 +1026,12 @@ section[id]{
   }
 
   .contact-section  .contact-form h4{
-    margin:0 20px 0 180px;
+    margin:0 20px 0 140px;
     word-wrap: 250vw;
   }
 
   .contact-section  .contact-form  .form{
-    margin:0 50px 0 250px;
+    margin:0 50px 0 220px;
     width: 250px;
   }
 }
