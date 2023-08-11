@@ -989,8 +989,50 @@ section[id]{
       width: 350px;
     }
 
+}
+
+@media screen and (max-width: 600px){
+  .contact-section{
+    font-size:9px;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    text-align: end;
+  } 
 
 
+  .no-responsive{
+    display: none;
+  }
+
+  .contact-responsive{
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    text-align: end;
+    display: block;
+    font-size: 3.8em;
+  color: var(--color-5);
+  padding-bottom: 40px;
+  width: 50vw;
+  }
+
+  .contact-section  .contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .contact-section  .contact-form h4{
+    margin:0 20px 0 180px;
+    word-wrap: 250vw;
+  }
+
+  .contact-section  .contact-form  .form{
+    margin:0 50px 0 250px;
+    width: 250px;
+  }
 }
 
  
