@@ -243,14 +243,14 @@ section[id]{
     color: var(--color-5);
     line-height: var(--color-5);
     padding: 0.5rem;
+    text-align: center;
   }
 
   .skills{
     margin-top: 120px;
   }
 
-    .skills .images{
-  
+    .skills .images {
       flex-wrap: wrap;
     }
 
@@ -271,9 +271,11 @@ section[id]{
   .icon{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
     margin: 60px;
+    width: 7.2cm; height: 7.5cm;
+    flex-wrap: wrap;
   }
 
   .icon:hover{
@@ -285,28 +287,25 @@ section[id]{
     background-color: var(--color-5);
     box-shadow: 0 3px 10px var(--color-8);
     padding: 20px;
-    margin: 10px;
+    margin: 40px 30px;
   }
 
-  .izquierda{
+   .izquierda{
     border-radius: 80px;
     box-shadow: 8px 8px 0px 0px rgba(246,138,88,1);
-    margin-right: 30px;
-  }
+  } 
   .izquierda:hover{
     background-color:#F7BE81;
   }
 
-  .derecha{
+   .derecha{
     border-radius: 81px;
     box-shadow: 8px 8px 0px 0px rgba(16,119,225,1);
-    margin-left: 40px;
-  }
+  } 
 
-  .nuevo{
+   .nuevo{
     box-shadow:8px 8px 0px 0px rgba(60,188,241,1);
-    margin-left: 65px;
-  }
+  } 
 
   .nuevo:hover{
     background-color: #CEF6F5;
@@ -353,7 +352,7 @@ section[id]{
 
   .proyectos{
     color: var(--color-5);
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .portfolio{
@@ -890,6 +889,28 @@ section[id]{
       color: aqua;
     } 
 
+    .sobre-mi p{
+      margin-left: -60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+      width: 350px;
+      color: var(--color-5);
+    }
+
+    .skills .images .icon  {
+      width: 5.2cm; height: 5.5cm;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .proyectos{
+      margin-top: -15px;
+    }
+
+
     .show_menu {
       transform: translateX(0%);
       transition: all .5s ease-in-out;
@@ -996,6 +1017,13 @@ section[id]{
 }
 
 @media screen and (max-width: 450px){
+
+  .skills .header-skills .images img{
+    width: 1.2cm;
+    margin-left: 150px;
+  }
+
+
   .contact-section{
     font-size:9px;
     display: flex;
