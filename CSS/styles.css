@@ -721,7 +721,7 @@ section[id]{
         top: -10px;
         left: 0;
         width: 38vw;
-        height: 100vh;
+        height:100vh;
         background-color: var(--color-9);
         z-index: 1;
         transform: translateX(-110%);
@@ -739,7 +739,6 @@ section[id]{
         align-items: center;
         width:  200px; 
         margin-left:25px;
-        border: solid 3px #081b29;
         color: var(--color-2);
       } 
 
@@ -883,7 +882,6 @@ section[id]{
       align-items: center;
       width:  150px; 
       margin-left: 5px;
-      border: solid 3px #081b29;
       color: var(--color-2);
     } 
 
