@@ -889,14 +889,10 @@ section[id]{
       color: aqua;
     } 
 
-    .sobre-mi p{
-      margin-left: -70px;
+    .sobre-mi .p{
       display: flex;
-      align-items: center;
-      justify-content: center;
       text-align: center;
-      font-size: 18px;
-      width: 350px;
+      font-size: 1.2em; 
       color: var(--color-5);
     }
 
