@@ -1131,7 +1131,7 @@ section[id]{
   } 
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 400px){
 
   .container .card .card-img{
    width: 245.8px; 
@@ -1201,15 +1201,15 @@ section[id]{
  }
 
  .contact-section  .contact-form h3{
-   margin:0 20px 0 220px;
+   margin:0 20px 0 215px;
  }
 
   .contact-section  .contact-form h4{
-   margin:0 20px 0 130px;
+   margin:0 20px 0 120px;
  }
 
  .contact-section  .contact-form  .form{
-    margin:0 5500px 0 210px; 
+    margin:0 5500px 0 190px; 
    width: 250px;
  } 
 }
