@@ -1000,15 +1000,51 @@ section[id]{
       width: 100vw;
     }
 
-    .contact-section  .contact-form h4{
+    .contact-section  .contact-form h3{
       margin:0 20px 0 300px;
+      width: 200px;
+    }
+
+    .contact-section  .contact-form h4{
+      margin:0 20px 0 210px;
       word-wrap: 350vw;
     }
 
     .contact-section  .contact-form  .form{
-      margin:0 50px 0 300px;
+      margin:0 50px 0 240px;
       width: 350px;
     }
+
+    .container .card .card-img{
+      width: 245.8px; 
+     }
+  
+     .container .card-img:nth-child(1){
+  
+      margin-top: -45px;
+      width: 245.8px; 
+     }
+  
+      .container .card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 245.8px; 
+     }
+  
+     .container .card .card_title{
+      font-size: 1.8em;
+     }
+  
+     .container .card i{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin:0 40px 0 40px;
+      size: 500px;
+      
+     } 
 
 }
 
@@ -1081,15 +1117,15 @@ section[id]{
   }
 
   .contact-section  .contact-form h3{
-    margin:0 20px 0 270px;
+    margin:0 20px 0 250px;
   }
 
    .contact-section  .contact-form h4{
-    margin:0 20px 0 180px;
+    margin:0 20px 0 140px;
   }
 
   .contact-section  .contact-form  .form{
-     margin:0 5500px 0 250px; 
+     margin:0 5500px 0 220px; 
     width: 250px;
   } 
 }
